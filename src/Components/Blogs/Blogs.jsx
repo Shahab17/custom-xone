@@ -18,11 +18,11 @@ const Blogs = () => {
 
             <h3 className="text-2xl">Blogs: {blogs.length} </h3>
             {
-                blogs.map( blogInfo => <Blog
-                     key={blogInfo.id} 
-                     blogData={blogInfo} 
-                     
-                     ></Blog>)
+                blogs.map(blogInfo => <Blog
+                    key={blogInfo.id}
+                    blogData={blogInfo}
+
+                ></Blog>)
             }
 
         </div>
